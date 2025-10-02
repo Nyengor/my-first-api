@@ -77,7 +77,7 @@ app.delete("/jokes/:id",(res,req) => {
       .status(404)
       .json({ error: `Joke with id: ${id} not found. No jokes were deleted.` });
   }
-})
+});
 
 
 //8. DELETE All jokes
